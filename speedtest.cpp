@@ -16,7 +16,8 @@ wstring readFile(const char *filename) {
   return text;
 }
 
-int main(int /* argc */, char ** /* argv */) {
+int main(int /* argc */, char ** /* argv */) {\
+  printf("test1\n");
   wstring text1 = readFile("speedtest1.txt");
   wstring text2 = readFile("speedtest2.txt");
 
